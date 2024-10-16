@@ -1,0 +1,26 @@
+{
+  "name": "taller",
+  "version": "0.1.0",
+  "description": "Esta es una aplicacion de ejemplo",
+  "main": "main.ts",
+  "scripts": {
+    "start": "tsx app.ts"
+  },
+  "keywords": [
+    "app",
+    "example",
+    "typescript"
+  ],
+  "author": "Carlos Carreño",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "tsx": "^4.19.1"
+  },
+  "dependencies": {
+    "esbuild": "^0.23.1",
+    "express": "^4.21.1",
+    "get-tsconfig": "^4.8.1",
+    "resolve-pkg-maps": "^1.0.0"
+  }
+}
